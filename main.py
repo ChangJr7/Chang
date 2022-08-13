@@ -112,7 +112,7 @@ def loading():
     animation = ["[\x1b[1;91m■\x1b[0m□□□□□□□□□]","[\x1b[1;92m■■\x1b[0m□□□□□□□□]", "[\x1b[1;93m■■■\x1b[0m□□□□□□□]", "[\x1b[1;94m■■■■\x1b[0m□□□□□□]", "[\x1b[1;95m■■■■■\x1b[0m□□□□□]", "[\x1b[1;96m■■■■■■\x1b[0m□□□□]", "[\x1b[1;97m■■■■■■■\x1b[0m□□□]", "[\x1b[1;98m■■■■■■■■\x1b[0m□□]", "[\x1b[1;99m■■■■■■■■■\x1b[0m□]", "[\x1b[1;910m■■■■■■■■■■\x1b[0m]"]
     for i in range(50):
         time.sleep(0.1)
-        sys.stdout.write(f"\r  {N}[{H}•{N}] {H}Loading...{N} " + animation[i % len(animation)] +"\x1b[0m ")
+        sys.stdout.write(f"\r├───{N}[{H}•{N}] {H}Loading...{N} " + animation[i % len(animation)] +"\x1b[0m ")
         sys.stdout.flush()
     print("")
 # LOGO
@@ -474,39 +474,39 @@ def alok():
     except FileNotFoundError:
         os.system("clear")
         logo()
-        print(' %s%s \x1b[1;97m[\x1b[1;96m+\x1b[1;97m] Hubungi Admin Jika Ada Yang Memperjual\n  \x1b[1;97m[\x1b[1;96m+\x1b[1;97m] Belikan SC Metavers. SC Ini %sGRATIS%s'%(M,N,H,N))
-        print(' %s%s \x1b[1;97m[\x1b[1;96m+\x1b[1;97m] Menu Tools%s'%(BM,P,N))
-        print(' %s%s \x1b[1;97m[\x1b[1;96m1\x1b[1;97m]  Login Ke Tools'%(H,N))
-        print(' %s%s \x1b[1;97m[\x1b[1;96m2\x1b[1;97m]  Hubungi Admin'%(H,N))
-        pil = input(' %s%s%s \x1b[1;97m[\x1b[1;96m+\x1b[1;97m]  Pilih : '%(N,K,N))
+        print('%s%s\x1b[1;97m╭───────────\x1b[1;96m>\x1b[1;95m>\x1b[1;94m>\x1b[1;93m <> \x1b[1;97m[\x1b[1;92mFACEBOOK INDONESIA\x1b[1;97m]\x1b[1;93m <> \x1b[1;96m<\x1b[1;95m<\x1b[1;94m<\x1b[1;97m\n\x1b[1;97m│ ╭────────────────────────────────────────────────────╮\n\x1b[1;97m│ │\033[32m    _    ____ ____ _ _  _    ___  _  _ _    _  _    \x1b[1;97m│\x1b[1;97m\n\x1b[1;97m│ │\033[32m    |    |  | | __ | |\ |    |  \ |  | |    |  |    \x1b[1;97m│\n\x1b[1;97m│ │\033[32m    |___ |__| |__] | | \|    |__/ |__| |___ |__|    \x1b[1;97m│\n\x1b[1;97m│ ╰────────────────────────────────────────────────────╯\n\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] Hubungi Admin Jika Premium\n\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] SC Ini %sPREMIUM%s'%(M,N,H,N))
+        print('%s%s\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] Menu Tools%s'%(BM,P,N))
+        print('%s%s\x1b[1;97m├───────────────────────────────────────────────────────\n\x1b[1;97m├───\x1b[1;97m[\033[32m1\x1b[1;97m]  Login Ke Tools'%(H,N))
+        print('%s%s\x1b[1;97m├───\x1b[1;97m[\033[32m2\x1b[1;97m]  Hubungi Admin'%(H,N))
+        pil = input(' %s%s%s\x1b[1;97m├──╭[\033[32mMENU\x1b[1;97m]──────────────────────────────────────────────\n│  ╰─➣\x1b[1;97m '%(N,K,N))
         if pil =="":
-            jalan(f"  \x1b[1;97m[\x1b[1;96m2\x1b[1;97m] Sorry, it is wrong...!");time.sleep(1);alok()
+            jalan(f"\x1b[1;97m╭───────────\x1b[1;96m>\x1b[1;95m>\x1b[1;94m>\x1b[1;93m <> \x1b[1;97m [ \x1b[1;92mThe Changcuters \x1b[1;97m]\x1b[1;93m <> \x1b[1;96m<\x1b[1;95m<\x1b[1;94m<\x1b[1;97m\n\x1b[1;97m│ ╭────────────────────────────────────────────────────╮\n\x1b[1;97m│ │\x1b[38;5;208m     _________ .__                                  \x1b[1;97m│\n\x1b[1;97m│ │\x1b[38;5;208m     \_   ___ \|  |__ _____    ____    ____         \x1b[1;97m│\n\x1b[1;97m│ │\x1b[38;5;208m     /    \  \/|  |  \\__   \  /    \  / ___\        \x1b[1;97m│\n\x1b[1;97m│ │\x1b[38;5;208m     \     \___|   Y  \/ __ \|   |  \/ /_/  >       \x1b[1;97m│\n\x1b[1;97m│ │\x1b[38;5;208m      \______  /___|  (____  /___|  /\___  /        \x1b[1;97m│\n\x1b[1;97m│ │\x1b[38;5;208m             \/     \/     \/     \//_____/         \x1b[1;97m│\n\x1b[1;97m│ │ Whatsapp  : 0822-6131-0817                         │ \n\x1b[1;97m│ ╰────────────────────────────────────────────────────╯\n\x1b[1;97m╰───\x1b[1;97m[\033[32m+\x1b[1;97m] Sorry, it is wrong...!");time.sleep(1);alok()
         elif pil in["2","02"]:
             jalan(" %s%s%s \x1b[1;97m[\x1b[1;96m+\x1b[1;97m]  %sAnda Akan Diarahkan Ke Author Whatsapp..."%(N,H,N,H));time.sleep(0.02)
             os.system('xdg-open http://www.wasap.my/6282261310817?text=Enggak+Menerima+Bocil²+Bangsat+OK');time.sleep(2);alok()
         elif pil in["1","01"]:
-            print('%s\x1b[1;97m──────────────────────────────────────────────────────'%(N))
-            print(' %s%s%s \x1b[1;97m[\x1b[1;96m+\x1b[1;97m] Masukan %sUsername & Password%s Untuk Masuk Ke Tools!'%(N,M,N,H,N))
+            print('%s\x1b[1;97m├───────────────────────────────────────────────────────'%(N))
+            print(' %s%s%s\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] Masukan %sUsername & Password%s Untuk Masuk Ke Tools!'%(N,M,N,H,N))
         else:
-            exit(f" \x1b[1;97m[\x1b[1;96m+\x1b[1;97m] Maaf Salah...!")
-        pw = input("\n %s%s%s \x1b[1;97m[\x1b[1;96m+\x1b[1;97m]  Enter Username : %s"%(N,K,N,H))
+            exit(f"\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] Maaf Salah...!")
+        pw = input("%s%s%s\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] Enter Username : %s"%(N,K,N,H))
         loading()
         if pw in [""]:
-            jalan(" %s%s%s \x1b[1;97m[\x1b[1;96m+\x1b[1;97m]  Maaf Jangan Kosong!"%(N,M,N));time.sleep(1);alok()
+            jalan("%s%s%s\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] Maaf Jangan Kosong!"%(N,M,N));time.sleep(1);alok()
         elif pw in user:
-            jalan(" %s%s%s \x1b[1;97m[\x1b[1;96m✓\x1b[1;97m]  OK Nama Pengguna benar"%(N,H,N));time.sleep(1);kska()
+            jalan("%s%s%s\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] OK Nama Pengguna benar"%(N,H,N));time.sleep(1);kska()
         else:
-            jalan(" %s%s%s \x1b[1;97m[\x1b[1;96m+\x1b[1;97m]  Maaf, Salah Nama Pengguna"%(N,M,N));time.sleep(1);alok()
+            jalan("%s%s%s\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] Maaf, Salah Nama Pengguna"%(N,M,N));time.sleep(1);alok()
     file()
 def kska():
-    xx = input("\n %s%s%s \x1b[1;97m[\x1b[1;96m+\x1b[1;97m]  Enter Password : %s"%(N,K,N,H))
+    xx = input("%s%s%s\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] Enter Password : %s"%(N,K,N,H))
     loading()
     if xx in[""]:
-        jalan(" %s%s%s \x1b[1;97m[\x1b[1;96m+\x1b[1;97m]  Sorry Don't Be Blank!"%(N,M,N));time.sleep(1);alok()
+        jalan("%s%s%s\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] Maaf Jangan Kosong!"%(N,M,N));time.sleep(1);alok()
     elif xx in pwas:
-        jalan(" %s%s%s \x1b[1;97m[\x1b[1;96m✓\x1b[1;97m]  OK Password IS Correct"%(N,H,N));time.sleep(2);open(".ini_pw.txt", "a").write(xx);file()
+        jalan("%s%s%s\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] OK Kata Sandi Benar"%(N,H,N));time.sleep(2);open(".ini_pw.txt", "a").write(xx);file()
     else:
-        jalan(" %s%s%s \x1b[1;97m[\x1b[1;96m+\x1b[1;97m]  Sorry, Wrong Password"%(N,M,N));time.sleep(1);alok()   
+        jalan("%s%s%s\x1b[1;97m├───\x1b[1;97m[\033[32m+\x1b[1;97m] Maaf, Kata Sandi Salah"%(N,M,N));time.sleep(1);alok()   
           
 if __name__ == '__main__':
     alok()
